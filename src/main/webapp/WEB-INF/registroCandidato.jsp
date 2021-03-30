@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Registro del Candidato</title>
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/normalize.css" />
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -17,9 +17,9 @@
 
 <body class="login">
 <!-- Empieza el logo -->
-<div class="logo-candidato">
-  <div class="imageLogo-candidato">
-    <img src="img/logominsait_B.png" alt="Logo Principal" />
+<div class="logo-index">
+  <div class="image-logo-index">
+    <img src="${pageContext.request.contextPath}/img/logominsait_B.png" alt="Logo Principal" />
   </div>
 
   <h2 class="sublogo">An Indra company</h2>
@@ -27,9 +27,9 @@
 <!-- Termina el logo -->
 
 <!--Empieza la barra de registro -->
-<aside class="RegRegistro">
-  <div class="tamaño headArrow">
-    <a class="arrow" href="index.jsp">
+<aside class="reg-registro">
+  <div class="headArrow">
+    <a class="arrow" href="index">
       <i class="fas fa-chevron-left"></i>
     </a>
   </div>

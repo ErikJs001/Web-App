@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Central</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/normalize.css" />
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
@@ -19,7 +19,7 @@
 <div class="containerHeadMain grid-section-head">
     <div>
         <div class="imageLogoMain">
-            <img src="img/logominsait.png" alt="Logo Principal" style="max-width: 100%" />
+            <img src="../img/logominsait.png" alt="Logo Principal" style="max-width: 100%" />
         </div>
         <hr /> <!-- Línea Inferior del logo -->
     </div>
@@ -138,7 +138,7 @@
                 <i class="fas fa-search icono-body-main-head"></i> <!-- Search -->
             </div>
             <div>
-                <input type="text" class="campo-tabla" placeholder="Búsqueda por nombre">
+                <input type="text" class="campo-tabla" placeholder="Búsqueda por nombre"/>
             </div>
             <div>
                 <div class="export">

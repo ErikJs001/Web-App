@@ -46,22 +46,6 @@ body.login::before {
   opacity: 0.8;
 }
 
-/* Centra el contenido */
-div.container-index {
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  max-height: 45vh;
-  max-width: 100vw;
-}
-
-/* Logo del index */
-div.imageLogo {
-  margin: 25vh 0 0 0;
-}
-
 h2.sublogo {
   position: relative;
   color: #ffffff;
@@ -73,44 +57,18 @@ h2.sublogo {
   line-height: 2.8rem;
 }
 
-div.grid-index {
-  display: grid;
-  gap: 7rem;
-  margin: auto;
-  grid-template-columns: repeat(2, 1fr);
-  width: 80rem;
-}
-
-a.button-index {
-  border-radius: 2rem;
-  background: linear-gradient(
-          90deg,
-          rgba(2, 0, 36, 1) 0%,
-          rgba(0, 153, 184, 1) 0%,
-          #003d60 100%
-  );
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out;
-  padding: 5rem;
-  font-size: 4rem;
-  margin: 2rem 5rem;
-}
-
-/****** CANDIDATO *******/
-div.logo-candidato {
+/* Posiciona el logo a la izquierda de forma Absolute*/
+div.logo-index {
   position: absolute;
-
   margin: 3rem 0 0 6rem;
   max-width: 120rem;
 }
 
-div.imageLogo-candidato {
+div.image-logo-index {
   margin: 2rem 0 0 0;
 }
 
-aside.RegCandidato {
+aside.reg-index {
   background-color: var(--colorFondo);
   position: relative;
   float: right;
@@ -131,7 +89,7 @@ a.arrow {
 
 /* Área para el texto*/
 div.container-text {
-  margin: 12vh 0 0 5vw;
+  margin: 7vh 0 0 5vw;
 }
 
 /* Títulos del área y el subtitulo */
@@ -243,7 +201,7 @@ a.btn-login {
 }
 
 /********* REGISTRO *********/
-aside.RegRegistro {
+aside.reg-registro {
   background-color: var(--colorFondo);
   position: relative;
   float: right;
